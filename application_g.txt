@@ -1,0 +1,39 @@
+Intriduction about computers~
+
+Computer is an elctronic device which is used for taking some input, some processes and gives some output. These 3 are the only
+primary functioion which is made for them. Because of this advancement in technology, computer machines are evolving and taking new
+forms. 
+*Computer stands for(based on the old edition)- Common Operating Machines Purposely used-for Technical, Educational and Research.
+At present computer is primarily used in various fields with higher priority. Computer is nothing but a high speed computer.
+A computer has various characteristics like speed, accuracy, storage, 
+
+------------------------------------------------------------------------------------------------------------------------------------
+(Computer Architecture)- 
+	~A  computer is mainly divided into different units of 3 in total. 
+
+	<Input unit>- This unit is dedicated with the input systems and sectors of the computer.
+	<Processing/ Control unit>- This unit is dedicated with the processign and control of the data and the computer, 
+					respectively. It is divided into 3 different parts-
+					(Control unit)- It controls the whole system.
+					(ALU)- It stands for Arithmatic Logic Unit. Its main purpose is for decission making and 
+						performing various calculations.
+					(Internal memory)- This unit is dedicated for storing of the information pf the CPU.
+								There the RAM and ROM comes under this unit only.
+	<Output unit>- This unit is dedicated with the output and show of the iformation or data on the screen.
+	
+	*<Main memory> and <Secondary storage> are not part of Contrl Unit, though these two are connected with all the other units.
+------------------------------------------------------------------------------------------------------------------------------------
+(Important points)-
+	* AI chat bots are devoloped mainly on the basis of given information and provided data for modal training purposes. There we 
+		provide data to the modal and on the basis of that it get trained, results in better purformences.
+	*Less storage capacity is not a characteristics of computer, rather it depends upon the amount of data being stored.
+	*Computer mainly follows the cycle of IPO(Input Processing Output).
+	*<Control unit>- Controls each and every part of the computer.
+------------------------------------------------------------------------------------------------------------------------------------
+(Definitions and Terminology)-
+	(Softcopy)- The final output on the screen of a computer is known as softcopy.
+	(Hardcopy)- The final output which is printed is known as Hardcopy.
+	(Software)- It is a set of instructions that tells the system to what to do. It is divided into 3 catagories-
+			<System software>-
+			<Utility software>-
+			<Application software>-
