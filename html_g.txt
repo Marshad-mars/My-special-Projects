@@ -1,0 +1,103 @@
+These are some of the following points about HTML.
+1. (Attributes)- Attributes are used to add some more information about an html tag.
+2. <!DOCTYPE html>- is used to tells our browser to open a custom web-page for us and also to tell it whether which type of version
+                        of html we are using for this purpose.
+3. (viewport)- means to show us our own custom web-page site.
+4. <href>- href stands for Hypertext Reference. It is an attribute used in HTML <a> (anchor) tags to specify the URL of the page.
+5. Anchor tag is not an empty tag, it has both opening and closing tag.
+6. Bold, italic and underline tags are used for highlighting text in html as styling.
+7. Linking is of two types, relative linking(linking diffrent webpages) and absolute linking(linking diffrent websites).
+8. In html, tags are of two types- semantic tags(tags whose meanings could be classified just by looking at the name of the tag) and
+        non-semantic tags(tags whose meanings could not be classified just by looking at the name of the tag).
+9. An html page is divided into 3 most important sections, <header>, <main> and <footer>.
+10. Inside of main tag is another 3 different types of tags- <section>tag, <article>tag and <aside>tag which are discussed in the {unique tags} sections.
+
+{unique tags}-
+        1. (<pre> </pre>)- This type of tags are used to display text as it is(without ignoring spaces and next line). 
+                                *This tag actually writes in such a way that the text is as it is like a type-writer format style.
+                                *This tag also lets us to format as like we want, if we want to include 100 spaces then it would allow us
+                                but other tags would not allow us this feature. 
+        2. (<section>  </section>)- It is used for dividing the main page into different sections on your page.
+        3. (<article>  </article>)- It is used for providing some information about ourself, means something which is about personal and which 
+                                        does not have much relation with the main theme and content of the web-site.
+        4. (<aside>  </aside>)- This tag is used for showing those content which are aside(means- different and does not affect the main) from 
+                                        the main content of the web-page.
+        5. (<span>  </span>)- Span tag is also container like div used for other HTML elements. It takes the required amount of space only.
+                                        *Span tag is a type of inline element.
+        6. (<form>  </form>)- Forms are used to collect data from the user.
+                                        *(action) attribute is a type of special attribute for forms. The definiton of theis attribute is explained 
+                                                        in the section- {unique Attributes}.
+        7. (<input>)- It is a very unique tag whcih is used to take any input inside of a form.
+                        syntax---> <input type="text/numeric" placeholder="Enter name">
+
+6. {highlighting tags}-
+        ~These are those types of tags which are used to highlight any content at the web page. These are-
+                (<b> </b>)- This tag is used to show the content in a bold format.
+                (<u> </u>)- This tag is used to underline any content at the web page.
+                (<i> </i>)- This tag is used to show any content at italics format.
+        *The above 3 tags are used only for highlighting purposes.
+
+7. {tables tags in html}-
+        ~Table tags are used to represent real life table data at web page by the help of html tags. These are the 2 types of table tags.
+                (<table> </table>)- This tag is used to make the appropriate container for table and to sort and include the functions of the 
+                                        below 3 tags. If the below 3 tags are used outside the table element then the 3 below might not properly
+                                        full fill there duty.
+                (<tr> </tr>)- It is used to display table row.
+                (<td> </td>)- It is used for displaying table data inside of the table.
+                (<th> </th>)- It is usdd to display the column header.
+                (<caption> </caption>)- It is used to display the caption of the table.
+                        *This tag must be used inside of the table tag only.
+        *The above 3 tags are used only for construction of tables at html web page.
+        *table tag itself is the main container of tables in html.
+        *table tag is a semantic tag.
+        {for table styling purposes}-
+                (<thead> </thead>)- This tag is used for wrapping the content of the header part of the table. 
+                (<tbody> </tbody>)- This tag is used for wrapping up the content of the main body of the table.
+        {special attributes for table only}-
+                (colspan)- This attribute could be used for the <thead> section 
+
+{unique Attributes}-
+        1. (target)- This attribiute is used in the anchor tag. It is used for opening the linked page at a seperate tab at the wed-browser.
+        2. (style)- This tag is used in most of the tags like <p, hr, header-tags> etc. Which is used for adjusting the space(gap) between 
+                        different contents. But this attribiute has some critarias. This tag would work as desired, if there is no CSS styling
+                        on that specific element's content. Other wise it would not work.
+        3. (rel)- It stands for relative. It is used in tags like <image-tag>. This tag is used for giving the name of the specific image(which is choosen to be given a name)
+                        so that we could understand that what is that image which we have used if there is no internet or if the server is down.
+        4. (action)- Action attribute is used to define what action needs to be performed when a form is submitted.
+                        ---> <form action="/action.php">  <!--this is just an example-->
+        5. (placeholder)- This attribute is specially used in input tag. Its lateral meaning in english is "something which occupies a space before
+                                something other occupies that specific place". 
+        6. (type)- This tag is also specially used in input tag. It is used for defining the type of input that is being entered.
+
+{important meanings and definitions}-
+        1. (layouts in html)- In HTML, layouts refer to the way elements are arranged on a webpage. 
+        2. (inline)- The tags or element which takes space(height or width) as per required and needed are known as inline elements.
+                        eg. <span>tag.
+        3. (lists)- Lists are used to represent real life list data. At html, lists are of two  types, unordered and ordered lists.,
+
+{unique points}-
+        (*). Proper layouts of the page must be maintained and in a properly arranged format.
+        (*). semantic tags must be used and in a Proper way. This ability also enhances the programmers's experience.
+        (*). (%) with the numeric value is used to set the width of a div container.
+        (*). <display: flex;> results in the showcase of contant in horizontal format and <display: block;> results in the showcase of
+                        contant in vertical format. Flex arranges the content or element side by side side and block shows the element or 
+                        content one after another on the web page.
+        (*). By default, at html, the aspect ratio of width and height is like this-> {width * height}.
+        (*). Span tag would do its role only if it is not styled by css or any other type of tags like header or highlighting tags. 
+                But if the styling tags or highlighting tags are used outside the span tag, then styling or highlighting of the content 
+                would be done as well as span tag would full fill its role.
+
+{special tools for web-dev}-
+        1. (remove back-ground)- This app or website could be used for removing the background of any image and just give us the objected 
+                                image of the original image.
+        2. (pinterest)- It is a great web site for finding about interective iamges and logo ideas. It could be used for finding any type of images you need.
+
+{properties for CSS}-
+        1. (font-size)- This property is the one and only property that could be used for changing and adjusting the font size of any text 
+                                content inside of any Non-empty tag.
+
+{special commands}-
+        * for formatting the code, press-> <ctrl + s + s>. In this editor, prettier formatter is installed and default.
+             The way it would format the code is the original way of formatting of any HTML code. 
+             ~The double tick sign shows that prettier formatter is acrivated in the current code.
+             ~The null sign (circle with a slash inside of it) shows that the prettier formatter is not activated at the current code.
