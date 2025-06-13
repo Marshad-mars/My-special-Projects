@@ -1,0 +1,49 @@
+These are some of the general facts and special points about this system and also for general computer usage~
+1. At the terminal, after opening it, the first statement that appears with the name of the user(marshad) and also the host
+	name(pop-os) is known as "Command Prompt".Changing the usar name is not directly possible.For changing it, First all the 
+	zip files must be removed and if all the processes are done, then also the original account's name would not be changed.
+2. If the user's account crashes and also the password authentication does not work, then the whole os must be erased first form
+	recovery mode then new syatem or the previous system must be restored.
+
+3. Cryptsetup password and the account password are different in this system.Your Cryptsetup password mothere's second number and
+	your account password is brother's number.If you change the password then the changes wpuld always takes place at your
+	account password, not crypt.If you want to change the crypt password then you need to configure it and change it through 
+	the system root.
+
+4. If you write any built-in command with -h, like <sudo -h> then you would be able to see the functionality of that command.It like
+	a help line or some information about that command.
+
+5. There must not be taken any changes at the boot directory at the root of the system by the user manually.If any changes is taken
+	by the user manually then thre would be massive fault while reeboting it.
+
+6. The Opencv web-cam starter based on python, which you use is written at the python3 version.
+	The command for starting the web-cam is just <python3 web-cam.py>.Then press enter and the cam would start working.
+
+7. The option arguement of <ls -t>, where -t is used to sort the list the content up in a sorted manner based on there modification
+	date and time.
+
+8. Command options, like filenames in Linux, are case sensitive.
+
+9. At visual studio code, if an infinite loop starts then it could be forcefully stoped by the command-> (ctrl + c).
+
+10. Cryptdata is a encrypted home directory. It is used to secure sensitive data by encrypting it, and require a 
+	password every time the system starts from power off-mode.
+
+11. At the htop system observer window, 0 refers to the first cpu core and the 1 refers to the second cpu core. Since this system
+	is only two core, it would show only 0 and 1 status bar, if the cpu consisted of more then two cores then there would be
+	2, 3, 4 or more status bar.
+				The <Green> color at the bar indicates Normal Processes.
+				The <Blue> color at the bar indicates Low Priority Processes.
+				The <Red> color at the bar indicates Kernel/System Processes.
+				The <Orange> color at the bar indicates IRQ(interrupt, request usually hardware-related) processes.
+	*The two core cpu is known as Dual Core CPU.
+
+12. MEM is the physical memory of the sysem. Whereas, SWP is the swap memory.
+	*swp is an extra memory for RAM. Though it have a larger capacity then RAM.
+
+13. The 3 layers of a Linux system- 1. Kernel~ Core of the System.
+				    2. Shell~ Command Line Interfaces. It is through where we interect with kernel.
+				    4. Desktop Enviroment/ GUIs~ It is through where we see see the output of any operation
+
+14. (Drivers)- Drivers are special software programmes that allow the operating system to communicate with diffrent different
+		Hardware components.
