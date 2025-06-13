@@ -1,0 +1,20 @@
+{PYTHON TOOL~BOOK}
+It would contain all the infomation in an organized format. Divided into different different sections.
+
+1. {Facts and other points}-
+        * It is possible to use curly brasis in python. The main advantage of it is that it could be used to overcome the identation in
+                python.
+        * For opening the command palette, press- <shift + ctrl + p>.
+        *Actually python code is not directed interpreted but first turned into a machine code then that bytecode is interpreted 
+                by some further operations.
+        *In indexing we can access any character or any value occupied there but can not perform any operation there at the pace of it.
+2. {definitions}-
+        (Linting)- The word "linting" refers to the process of analyzing source code to find potential errors, bugs, stylistic 
+                        issues, or suspicious constructs.
+        (Concatanation)- It is a way of joining strings together by operator like (+).
+        (slicing)- It is a way of accessing parts of a string.
+                        *In slicing, we can do this- <[:]> for slicing the whole string which is ultimately printing it or
+                                also do this-> <[_:]> where (_) is the place of index.
+        (Presidencies)- It is the degree or say the authority of the fundamental mathematical symbols.
+                        
+3. {string functions}-
