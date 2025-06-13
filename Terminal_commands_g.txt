@@ -1,0 +1,42 @@
+These are some of the command line interface's commands, that could be used for General-purposes, for interective and for fun, 
+System_administrative-purposes and also for Emergency-purposes~
+
+*{General-Purposes}~
+1. For turning on and off of wifi, use the <nmcli radio> command. For turning on the wifi, write <nmcli radio wifi on> and for
+	turning it off, use <nmcli radio wifi on>.
+2.(Tmux)~ If you press <tmux> then terminal would appear inside of a terminal. To exit this, press <ctrl + b + d>.
+	*To kill any session type the command- <tmux kill-session>
+	*To create any session tyoe the command- <tmux new -s .....>. Here the <.....> is the name of the session.
+	*To delete any specific session, enter the command- <tmux kill-session -t .....>. Here <....> is the name of the session.
+	*To enter any specific session, enter the command- <tmux a -t ....>. Here <.....> is the name of the session.
+	*To shift the window of the tmux terminal then we press- <ctrl + b + shift + %>. It is used for spliting the window in
+		Vertical style. For spliting it in horizontal style then press- <ctrl + b + shift + "">.
+	*The <ctrl + b> is like prefix key.
+	*If you press <ctrl + b + q> then it would show us the index of all the splited up windows.
+	*(Hot keys)- These are like the special commands that are commanded by pressinf keys at the keyboard to command something.
+	*<ctrl + b> is the most important aspect of tmux. It is also described as <c-b>.
+	*To change the name of the session, press <c-b + shift + $>. After changing the name just press enter.
+	*To jump form one session form another, there is better way of jumping all around, press- <c-b + w> then chose the session
+		you want.
+	*<c-b + arrow keys> is used for jumping to windows of a session and <c-b + w> is used for jumping through sessions.
+	*<c-b + &> is used for killing all the windows of a session at once.
+	*The command <tmux kill-server> is used to kill all the sessions at once.
+
+*{System_Administrative-Purposes}~
+1. For forcefully deleting any file then use the command <rm -f>, after write the name of the file with a space.
+2. For enabling the root login- <sudo passwd -u root>
+3. For disabling the root login- <sudo passwd -l root>
+4. To list the packages installed in a system by the user manually, we use the command- <apt-mark showmanual>.
+5. *<man sudo_root>- This command could be used for getting more information about the sudo_root and for system administrative 
+			purposes.
+
+*{Emergency-Purposes}~
+1. 
+
+*{For interective and Fun}~
+1. <cmatrix>
+2. <neofectch>
+3. <ctrl + shift + e> then <space_bar>- This combination of keys could be used for opening an interective key board and special 
+					characters in the Terminal window, like emogies, special characters.
+4. <ctrl + shift + c>- This combination could be used for opening the web cam.
+------------------------------------------>
