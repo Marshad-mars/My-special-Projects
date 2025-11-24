@@ -1,0 +1,8 @@
+This file contains the fundamentels and conceptual contents about JavaScript and JS-applications.
+
+(Important points)-
+	1. <console.log()> is the command that is used to log (print) a massage in the console or terminal. It means to print something
+		on the console.
+	2. For printing executing JS code inside of the terminal in a code editor like VS-code, then the command <node file_name.js> is
+		used.
+	3. The statement terminator(;) is used in JS code.
