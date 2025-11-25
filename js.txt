@@ -6,3 +6,32 @@ This file contains the fundamentels and conceptual contents about JavaScript and
 	2. For printing executing JS code inside of the terminal in a code editor like VS-code, then the command <node file_name.js> is
 		used.
 	3. The statement terminator(;) is used in JS code.
+	4. There are 2 of the special values, <null> and <undefined>. There is a difference between both of these. <null> means we know
+		whats iniside but currently it is empty. <undefined> means we does not even know what is inisde of this.
+	5. Javascript is a dynamically typed programming language. Means we can write anything inside of any variable and we are not 
+		supposed to tell what are we trying to write inside of the variable. During the runtime, the interpreter already 
+		assigns the data-type of that variable.
+	6. Javascript is a case sensitive language, means there is a difference between the uppercase and lowercase value of the same
+		letter.
+	7. Both the <let> and <cons> keywords are "block-scope keywords".
+	8. For finding the type of any value inside of the console, we use the command- <typeof>.
+	9. objects in javascript are just like made by normal variable but the main data is in a block format, with key:value pairs.
+	10. There are 2 ways of finding the value of any key from an object-- {nameOf_obj.nameOf_key} / {nameOf_obj["nameOf_key"]}.
+
+(variable keywords)-
+	These are some of the following keywords that are always used before the name of the variable in JS. And these are only 3.
+	<let, const and var>.
+	(let)- This is current most generally used keyword and is widely used. <let> and <const> keywords are the keys that came after
+		the year 2015. And before that, the general keyword used was <var>.
+		But if this keyword is used then, the name of that variable cannot be re-declared. Because we already letted a variable
+		but we can update.
+	(ver)- This the keyword that was generally used before 2015. The only difference is that, if you use this keyword then that 
+		variable could be re-declared.
+	(const)- This keyword is generally used for integer of float type values for constant values that do not change. The variable 
+			used with the const key, cannot be re-declared.
+
+(Data-types)-
+	Data types in JavaScript, are mainly of 2 types- "primitive" and "Non-primitive".
+	"Primitive" ones are further of 7 types, <Number, String, Boolean, Undefined, Null, Binint and Symbol>.
+		*When you use the <Bigint()> then at the console, you would see a "n" at the end of the int-type value.
+	"Non-primitive" data types are mainly of 3 types. That are- <objects>, <array> and <functions>.
