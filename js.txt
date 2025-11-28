@@ -17,6 +17,20 @@ This file contains the fundamentels and conceptual contents about JavaScript and
 	8. For finding the type of any value inside of the console, we use the command- <typeof>.
 	9. objects in javascript are just like made by normal variable but the main data is in a block format, with key:value pairs.
 	10. There are 2 ways of finding the value of any key from an object-- {nameOf_obj.nameOf_key} / {nameOf_obj["nameOf_key"]}.
+	11. While having multiple conditioning, we use the if-else and the else-if conditioning. At the end, we use the else condition
+		if none of the cases are not satisfied.
+	12. There are 2 other ways of conditioning, <switch-case> and <ternary statements>.
+	13. An operator that works with only one such variable, are known as <unary operators>.
+	    An operator that worls with only two variable are konw as the <binary opeartors>.
+	    An operator that works with 3 variable, are known as the <ternary statements> where it is also known as the compact if-else
+		statements. (syntax)- <condtition_variable ? "true output_variable" : "false output_variable">.
+	14. (alert)- This is a kind of pop-up that appears on an html web-page.
+	    (prompt)- This is also a kind of pop-up, but with an additional functionality of temporary input from the user.
+	
+	15. When we define any for-loop and use the <let> keyword infront of the innitialization variable then that variable would be
+		block-scope in the block of that particular loop. But if we use the <var> keyword then we that variable would be 
+		global-scope for the whole code itself.
+	16. There are 5 kinds of loops in JS- (for loop), (while loop), (do-while loop), (for-of loop) and the (for-in loop).
 
 (variable keywords)-
 	These are some of the following keywords that are always used before the name of the variable in JS. And these are only 3.
@@ -35,3 +49,12 @@ This file contains the fundamentels and conceptual contents about JavaScript and
 	"Primitive" ones are further of 7 types, <Number, String, Boolean, Undefined, Null, Binint and Symbol>.
 		*When you use the <Bigint()> then at the console, you would see a "n" at the end of the int-type value.
 	"Non-primitive" data types are mainly of 3 types. That are- <objects>, <array> and <functions>.
+
+(Logical Operators)-
+	There are mainly 3 types of logical operators. These 3 are aplicable to all such programming languages and the syntax is also
+	same there. These are <logical AND, &&>, <logical OR, ||> and <logical NOT, !>.
+	These operators always returns boolean values(true or false) at the console.
+	<&&> would return <true> if both the variables are <true> but if one is <false> then it would return <false> at the console.
+	<||> would return <true> if one of the variable is <true>. If both the variables are <false>, then only it would return <false>
+	<!> woudl switch the values. This would return <true> for the one with <false> and would return <false> for the one with <true>
+		This concept is used mainly used for checking the real world scenariors of the condition checking.	
