@@ -31,6 +31,35 @@ This file contains the fundamentels and conceptual contents about JavaScript and
 		block-scope in the block of that particular loop. But if we use the <var> keyword then we that variable would be 
 		global-scope for the whole code itself.
 	16. There are 5 kinds of loops in JS- (for loop), (while loop), (do-while loop), (for-of loop) and the (for-in loop).
+	17. (for-f loops) cant be used for objects or anyother data set. Though this loop is generally used for strings operations
+		and for other string functions.
+	18. (for-in loops) always gives us the keys of any object. It is even generally used for object operations. And to return 
+		the value of a key as well, we use this, <name_of_the_obj[iterator_variable]>.
+	19. Strings are a sequence of characters  to represent text.
+	20. There is an another way of making strings, that is by making (template_laterals) and these are created by just by
+		replacing <""> with <``> known as (back-ticks). Major functionality about such thing that is, you can make a
+		complete string without any addition or concatanation of different segments, and you can also add variables directly
+		by (string interpolation) with this placeholder, <${}>.
+	21. (string interpolation)- It is a way of adding something in template laterals by placeholders.
+	22. (string methods)- These are those functions that are used for perfoming any operation on any string. These are some of 
+				the following string methods:
+					<str.length()>- This method is used for finding the length of any string.
+					<str.toUpperCase()>- This method is used for logging of any string in UPPERCASE format.
+					<str.toLowerCase()>- This method is used for logging of any string in lowercase format.
+					<str.trim()>- This method is used for logging of any string without any white space.
+					<str.charAT(indicis)>- This method is used for logging of the chracter of that string which
+								is at that index.
+					<str.replace("new_value" : "old_value")>- This method is used for replacing any letter with 
+											a new one, in an immutable string.
+					<str.repeat(count_value_for_repitition)>- This method is used for logging of that <str> for
+											a certain number of times based on the count
+											value. Original strings in JS are always 
+											immutable and for change, we always use the 
+											replacement method.
+					<str1.concat(str2)>- This method is used for concatanating a string with another string, 
+								instead of the "+" sign.(To do concatanation in a professional way:).
+
+	23. <arrays> are collection of any type of item.
 
 (variable keywords)-
 	These are some of the following keywords that are always used before the name of the variable in JS. And these are only 3.
