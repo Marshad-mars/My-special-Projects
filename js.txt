@@ -69,6 +69,36 @@ This file contains the fundamentels and conceptual contents about JavaScript and
 		an index that does not exist inside of the array, then you would always get 'undefined' at the console.
 			Array values are mutable and can be changed just be rewriting or updating them. So we can say that "Arrays are 
 		mutable in compared to strings, who are immutable".
+			In arrays position of the value matters, which is known as the index of that value. We can create array of 
+		different data-types b4ut we generally prefer to make an array of same data-types.
+			We use array in those situation when we want to store multiple values or data in a single variable or storage
+		format.
+			(These are some of the following array methods and functions)-
+				<array.push()>- This method is used to give something... or say to append something inside of an array.
+				<array.indexOF()>- This method is used to log the index of any particular array value aat the console.
+				<array.pop("arguement or the indicis value")>- This method is used for deleting any array value and then 
+										returning at the same time. So it does 2 things, delete 
+										and then return.
+				<array.toString()>- This method is used to convert an arrya tp string value with all the array values 
+							at the place and with same length.
+				<array.forEach()>- This mehtod is used to loop through each element(array_value).
+				<array.sort()>- This method is used to sort out all the array values and then return at the console.
+				<array.reverse()>- This method is used for logging the reverse order of an array.
+				<array.isArray()>- This method is used to check that whether an array is array or not or something
+							else.
+				<array.concat()>- This method is used to merge or concatanate 2 or more arrays at one single array.
+				<array.unshift(arguement_value)>- This method is used for appending something at the starting of an
+									array and then returning a new one.
+				<array.shift()>- This method is used for deleting any starting array value and then returning.
+				<array.slice(strting_index, ending_index)>- This method is used for slicing a part of an array. And
+										then returning us. This method does not makes any 
+										change inside of the original one. We can also use 
+										this method to log all the array values, instead of 
+										looping over the array for logging. And we can also 
+										use this method for making a copy of that array.
+				<array.splice(startidx, delCount, newELL)>- This method always makes changes in the original array. It 
+										is used for changing the original array(add, remove, 
+										replace). It always takes 3 parameters.
 
 	24. (Iterables)- It means, those items any programming language, wjich can be iterated over by a loop. Some of the examples of
 				such iterables are- <arrays>,<objects>,<strings> etc...
