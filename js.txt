@@ -59,7 +59,23 @@ This file contains the fundamentels and conceptual contents about JavaScript and
 					<str1.concat(str2)>- This method is used for concatanating a string with another string, 
 								instead of the "+" sign.(To do concatanation in a professional way:).
 
-	23. <arrays> are collection of any type of item.
+	23. <arrays> are collection of any type of item. arrays are completely different from objects. Arrays does not have any 
+		key:value duo, the values that are stored inside of arrays are under the umbrellla of a single variable name.
+		And arrays are enclosed by third-brackets(square brackets, []). Arrays are are <non-primitive> data type. Despite of
+		having difference in between objects but arrays are still considered as speical type of objects. So if you log the 
+		<array.typeof()>, then you would get 'object'. And we treat arrays seperately in comparison with objects.
+			Values inside of arrays are stored in linear fashion. And each and every value posseses their own unique index 
+		value. And they are of a particular length, in respect to the number of values stored in them. But if you try to log a 
+		an index that does not exist inside of the array, then you would always get 'undefined' at the console.
+			Array values are mutable and can be changed just be rewriting or updating them. So we can say that "Arrays are 
+		mutable in compared to strings, who are immutable".
+
+	24. (Iterables)- It means, those items any programming language, wjich can be iterated over by a loop. Some of the examples of
+				such iterables are- <arrays>,<objects>,<strings> etc...
+			Whenever we are dealing with iterables(especially strings,objects or arrays)  we always choose the value for 
+			iterator as 0, instead of 1. And keep the range value less then the length of the respective lateral.
+
+	25. We can also use (for-of loop) and (for-in loop) for looping over array values.
 
 (variable keywords)-
 	These are some of the following keywords that are always used before the name of the variable in JS. And these are only 3.
