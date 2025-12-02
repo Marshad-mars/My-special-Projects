@@ -107,6 +107,23 @@ This file contains the fundamentels and conceptual contents about JavaScript and
 
 	25. We can also use (for-of loop) and (for-in loop) for looping over array values.
 
+	26. (Functions)- Functions are block of code that performs a specific task, and can be invoked whenever needed, amd the way of 
+				calling or say invoking a function is known as the "function call". While writing any functions, we
+				always add () at the end of the name of the function. It is a way of invoking a function.
+				Functions always takes input, processses and then gives us output.
+					To write a function, we first make the "function definition", that includes the function key-
+				word, known as <function> and then giving a name to the function and then create a block for it.
+							function My_function() {
+								//function definition content.
+							}
+				Inside of the () we give inputs, that are known as the parameters. And during the function call, we 
+				give the main unput for the function , which is known as the arguement.
+					Function also returns values after getting processed up. You can return any type of values.
+				If you take the return of multiple values then it would be worthless because functions returns only 
+				one value, even which would be the main or the processed value.				
+
+	27. (Redundency)- This word means the repitition of a code or a line of code.
+
 (variable keywords)-
 	These are some of the following keywords that are always used before the name of the variable in JS. And these are only 3.
 	<let, const and var>.
