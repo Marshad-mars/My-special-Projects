@@ -121,6 +121,17 @@ This file contains the fundamentels and conceptual contents about JavaScript and
 					Function also returns values after getting processed up. You can return any type of values.
 				If you take the return of multiple values then it would be worthless because functions returns only 
 				one value, even which would be the main or the processed value.				
+			*Function parameters are local variables and they are block-scope. And that is why, each function has there 
+				unique parameters that are only sacred to them.
+			(Arrow Functions)- It is the compact way of writing functions. Its syntax is something like this-
+							const function = (param1, param2) => {
+								//main function, function code.
+							}
+				*There the implise sign is the "arrow function", that tells whats the input and then what to work.
+				*Arrow functions return values gets stored inside of a variable. And the arrow function call is same as
+					that of the normal functions.
+				*We arrow functions for smaller tasks and they are very reliable for smaller tasks. But for bigger 
+					tasks it is important to use sacred functions.
 
 	27. (Redundency)- This word means the repitition of a code or a line of code.
 
