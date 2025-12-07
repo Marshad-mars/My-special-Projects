@@ -99,6 +99,38 @@ This file contains the fundamentels and conceptual contents about JavaScript and
 				<array.splice(startidx, delCount, newELL)>- This method always makes changes in the original array. It 
 										is used for changing the original array(add, remove, 
 										replace). It always takes 3 parameters.
+				<(forEach)>- forEach is a function type loop for array that automatcally takes each value one by one.
+						And then performs the given function on all the values. 
+					   This is an array-method as well, that is partuclarly used for arrays. 
+					   For this method, the insission of the desired function definition must be given, that would 
+						be performing the main work.
+					   This method takes the values, one by one from the array  and passes the value to the written
+						function definition, into the function parameter. The desired function takes place and 
+						this thing continues as a loop till the array length.
+					   We generally use arrow function in place of normal function.
+						(syntax)-
+								array_name.forEach((valu_parameter) => {
+									//main_function definition.
+									return value_output;
+								});
+					   This thing could also be written like this-
+								funtion array_function(value){
+									//do some work;
+									return value_output;
+								}
+								array_name.forEach(array_function());
+						Here the main function is written outside the <forEach> method and then the <forEach>
+						method is seperately called. By having an entire function as the arguement.
+							*Here the <array_function()> is a allback function. That is used as an 
+								arguement inside of another function.
+					you can use max 3 parameters in forach array method, these are- (value, index and the array)
+					(idx) parameter would return the idx of that value on which the operation is being performed.
+					(array) parameter returns the whole array with the processed value.
+				<(map)>- Its an another type of array method and the modified version of the <forEach array-method>.
+						It performs the same function as that of <forEach_method> but it returns the processed
+						values in the form of an array.
+			*forEach loop are another type of loop type of function method that are specifically used for array objects.
+			*(callback)- A callback function is function, passed as an arguement inside of another function.			
 
 	24. (Iterables)- It means, those items any programming language, wjich can be iterated over by a loop. Some of the examples of
 				such iterables are- <arrays>,<objects>,<strings> etc...
@@ -134,6 +166,15 @@ This file contains the fundamentels and conceptual contents about JavaScript and
 					tasks it is important to use sacred functions.
 
 	27. (Redundency)- This word means the repitition of a code or a line of code.
+	28. When we associate a function for a specific object, datatype or data structure then that function is termed as method of
+		the thing that is used for.
+			for example- string methods are specifically used for strings. They are functions, but the specific usage of 
+					those functions for strings, makes them methods for strings or termed as methods for strings.
+	29. In javascript you can pass a function as a parameter inside of another functon and can be returned.
+	30. (Method)- Functions that are binded with and associated with a specific data structure or object or a data type. Then is
+			reffered as the method.
+	31. (High-ordered functions / methods)- These are those functions that takes other functions as parameters and return the
+							processed value. Then thay are termed as higher order functions or method. 
 
 (variable keywords)-
 	These are some of the following keywords that are always used before the name of the variable in JS. And these are only 3.
