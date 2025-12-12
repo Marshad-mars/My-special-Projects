@@ -128,7 +128,16 @@ This file contains the fundamentels and conceptual contents about JavaScript and
 					(array) parameter returns the whole array with the processed value.
 				<(map)>- Its an another type of array method and the modified version of the <forEach array-method>.
 						It performs the same function as that of <forEach_method> but it returns the processed
-						values in the form of an array.
+						values in the form of an array. And this method is used inside of a variable, such that
+						the processed array could be stored. And then be logged out at any moment.
+				<(filter)>- Its an another type of array_method used in JS. Its function is similar to the <map_method>
+						but it gives the output under a certain condition that is given inside of this
+						function. Where the return statement is written inside of the desired condittion block.
+				<(reduce)>- Its an another type of array_method used in JS. It performs over various values and then
+						then reduces the array to a single value. And it returns that single value only.
+							It takes 2 different parameters, that are (previousValue) and the 
+							(currentValue). The (preivos value) parameter is written before the (current
+							_value) parameter. 
 			*forEach loop are another type of loop type of function method that are specifically used for array objects.
 			*(callback)- A callback function is function, passed as an arguement inside of another function.			
 
@@ -175,6 +184,9 @@ This file contains the fundamentels and conceptual contents about JavaScript and
 			reffered as the method.
 	31. (High-ordered functions / methods)- These are those functions that takes other functions as parameters and return the
 							processed value. Then thay are termed as higher order functions or method. 
+	32. <isNaN()>- This is a special type of function that is used to check whether a variable returns "NaN" or not.
+			It has another form, i.e- <!isNaN()>, which is used for checking whether a variable is <number> or not.
+	33. When you take the input of anything from prompt then it is always stored in the form of <string>.
 
 (variable keywords)-
 	These are some of the following keywords that are always used before the name of the variable in JS. And these are only 3.
