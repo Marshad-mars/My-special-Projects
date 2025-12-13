@@ -188,6 +188,15 @@ This file contains the fundamentels and conceptual contents about JavaScript and
 			It has another form, i.e- <!isNaN()>, which is used for checking whether a variable is <number> or not.
 	33. When you take the input of anything from prompt then it is always stored in the form of <string>.
 
+	34. It is possible to create a website where all visible content is generated using JavaScript code. But you still need the 
+		root HTML plate. In this process, JS uses the DOM-API to create and style everything dynamically. But the correct
+		statement here would be- "You can write the entire website logic, structure and even syle through the JS, but a tiny
+		HTML shell is required for this". 
+						HTML is resposnsible for loading the JS file into the browser, of the html file is 
+		absent then the JS code would be worthless. 
+	    *(Further information on DOM;Document Object Modeling and DOM manipulation is written down below.You can go and check it
+		out).
+
 (variable keywords)-
 	These are some of the following keywords that are always used before the name of the variable in JS. And these are only 3.
 	<let, const and var>.
@@ -214,3 +223,6 @@ This file contains the fundamentels and conceptual contents about JavaScript and
 	<||> would return <true> if one of the variable is <true>. If both the variables are <false>, then only it would return <false>
 	<!> woudl switch the values. This would return <true> for the one with <false> and would return <false> for the one with <true>
 		This concept is used mainly used for checking the real world scenariors of the condition checking.	
+
+(Document Object Modeling; DOM)-
+	
