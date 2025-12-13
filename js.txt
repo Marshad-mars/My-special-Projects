@@ -229,10 +229,62 @@ This file contains the fundamentels and conceptual contents about JavaScript and
 	the Document Object Model (DOM) in JavaScript is a programming interface that represents an HTML (or XML) document as a 
 	structured tree of objects, where each element, attribute, and piece of text is a node that JavaScript can access, modify, add,
 	or remove dynamically, allowing scripts to change the content, structure, and style of a web page after it has loaded.
+	When a webpage is loaded then browser creates a document object model(DOM) of the page. 
 
+	Its true that we can access all the html code inside of the javascript file. 
+		And for acessing such thing, we use the functions-
+			<console.log(document.documentElement.outerHTML)>- This logs the whole html code.
+			<console.log(document.documentElement.innerHTML)>- This logs only the inner part of the code i.e <head> and 
+				<body> sections.
+	All the elements we write gets converted into an object in JS. All the elments in the html file gets converted into objects 
+	in JS and gets stored inside of the <document> object, in the respective subNode(head, body: div) or the childNode. Where the 
+	whole <document> object itself is stored inside of the <window> object.
+
+	Document object is actually a model of our HTML code and the structure of the webpage. Its a kind of hirachial tree that 
+	represents this thing~
+				-Window
+				    -document
+					-html
+					    -head
+						->meta
+						->title
+						->link, etc...
+						->styling sheet or the linked sheet.
+					    -body
+						->div
+						->div
+						->various tags and elements
+						->script_tag, etc...
+
+		*All these are known as nodes of the DOM tree. The nodes that are inside of the body_node, are known as the
+			 (childNodes).
+		*To access the childNodes of the body_node then we use this form of commands:
+			<console.log(document.body.childNode[node_idx])>.
+		*There we control the changes of the web-page by the noding of document through the JavaScript file.
+
+	(childNodes)- Those nodes of elements and tags that are present inside of the body node.
 	(window object)- The window object represents an open winow in the browser. Its is the browsers object and it is created 
 				automatically by the browser itself. Though it could be the accessed by JS console or the script tag.
 				This object contains all the necessary information about the web-site and even the HTML, CSS and JS
 				functions, methods, properties etc; inside of it. Where all the functions or methods are actually part 
 				of this object. Whenever we create any function then that function also becomes part of the window obj.
 					Its a Global object with lots of properties and methods.
+
+	(DOM_Manipulation commands and functions)-
+
+	*Whenever an id based element does not exist then the JS functions, if used then returns null for that unknown id element.
+	*<console.dir(name_of_the_object)>- This is a special function, used for logging all the properties or methods of that given 
+						object name.
+	*For logging the htmlDocument, we use the function- <console.log(window.document)>.
+	*The major usage of DOM is-
+		1. Doing dynamic changes inside of the web-page.
+		2. controling the web-site.
+		3. Executing JS functions and writing the logic of the website.
+	     ~These things are known as "DOM Manipulation", where it is done through special commands and functions. Such commands and
+		functions are listed above.
+	*It is possible to create a website where all visible content is generated using javascript, but you sill need the root html
+		plate. In this process, Javascript uses the the DOM API to create and style everything dynamically.But the correct 
+		statement here would be- "YOu can write the entire website logic, structure and content in JS, but a tiny HTML shell is
+		required".
+	*For (id) based element, we use the <#> for performing operations on the element. And for (class) based element, we use the <.>
+		for performing operatiojn on the element.
