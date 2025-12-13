@@ -196,6 +196,7 @@ This file contains the fundamentels and conceptual contents about JavaScript and
 		absent then the JS code would be worthless. 
 	    *(Further information on DOM;Document Object Modeling and DOM manipulation is written down below.You can go and check it
 		out).
+	35. Front-end devolpment is associated with the 3 musketers of web-development. These are- (HTML), (CSS) and (JavaScript).
 
 (variable keywords)-
 	These are some of the following keywords that are always used before the name of the variable in JS. And these are only 3.
@@ -225,4 +226,13 @@ This file contains the fundamentels and conceptual contents about JavaScript and
 		This concept is used mainly used for checking the real world scenariors of the condition checking.	
 
 (Document Object Modeling; DOM)-
-	
+	the Document Object Model (DOM) in JavaScript is a programming interface that represents an HTML (or XML) document as a 
+	structured tree of objects, where each element, attribute, and piece of text is a node that JavaScript can access, modify, add,
+	or remove dynamically, allowing scripts to change the content, structure, and style of a web page after it has loaded.
+
+	(window object)- The window object represents an open winow in the browser. Its is the browsers object and it is created 
+				automatically by the browser itself. Though it could be the accessed by JS console or the script tag.
+				This object contains all the necessary information about the web-site and even the HTML, CSS and JS
+				functions, methods, properties etc; inside of it. Where all the functions or methods are actually part 
+				of this object. Whenever we create any function then that function also becomes part of the window obj.
+					Its a Global object with lots of properties and methods.
