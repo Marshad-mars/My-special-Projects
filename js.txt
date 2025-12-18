@@ -197,6 +197,11 @@ This file contains the fundamentels and conceptual contents about JavaScript and
 	    *(Further information on DOM;Document Object Modeling and DOM manipulation is written down below.You can go and check it
 		out).
 	35. Front-end devolpment is associated with the 3 musketers of web-development. These are- (HTML), (CSS) and (JavaScript).
+	36. For performing any set of task after clicking a button in the HTML, we use the "onclick_attribute". Inside of this 
+		attribute, we write the function name that would perform the task. We can also function call up for multiple functions
+		in one single click.
+			For doing this, we write: <onclick="{function_1(), function_2()...}">
+		That is inside of the curly brasis{}, we write the array of performig functions.
 
 (variable keywords)-
 	These are some of the following keywords that are always used before the name of the variable in JS. And these are only 3.
@@ -288,3 +293,6 @@ This file contains the fundamentels and conceptual contents about JavaScript and
 		required".
 	*For (id) based element, we use the <#> for performing operations on the element. And for (class) based element, we use the <.>
 		for performing operatiojn on the element.
+
+(CSS properties)-
+	*For add
