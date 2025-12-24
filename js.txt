@@ -296,3 +296,11 @@ This file contains the fundamentels and conceptual contents about JavaScript and
 
 (CSS properties)-
 	*For add
+
+(Web-dev tools)-
+	1. (pinterest)- This is a great website and platfrom where you could find numerous numbers of images or photos of dfferent aspects 
+			and for various things like designing, modeling, background images etc.
+	2. (remove-bg)- This web tool could be used for removing the background of an image or photo.
+	3. (SSyouTube)- This web tool could be used for downloading a video in such a way that the video would be stored in your files or 
+			directories, in your local server.
+	4. (CSS clip-path)- This web tool could be used for editing an image and get its clip-path value for the CSS styling.
