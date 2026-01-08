@@ -1,0 +1,366 @@
+Some important points about c++ ~
+1. At c++, false is stored as 0 and true is stored as 1 at memory.
+2. While showing the cout of false, we get 0 only and for truw we get 1.
+3. Boolean values at c++ are not written in capitalized format.
+4. Double data type is the double of float data type.
+
+5. (Primitive Data Types)-
+        *int (4 bytes)
+        *char (1 bytes)
+        *float (4 bytes)
+        *bool (1 byte)
+        *double (8 bytes)
+
+6. Type conversion is an implicit process and casting is an explicit process.
+7. Casting of char value to integer value is possible at c++.
+8. At c++, char value are only enclosed within single quots.
+
+9. (Garbage Values)- These are those types of values which are empty and when it cout then it would
+                        always give us random values.Either it is positive or negative.
+
+10. <cin> and <cout> are not functions rather they are global objects.
+11. There are 3 types operators at c++- Arithmatic operators, logical operators and relational operators.
+
+12. (logical operators)- <OR>--> (||)~which is known as pipe~"Logical OR"
+                         <AND>--> (&&)~which is also known as double ampersend or just say double-AND~"Logical AND"
+                         <NOT>--> (!)~"Logical NOT"
+
+13. At the word Binary, 'Bi' means 2. At the word Unary, 'U' means only 1.
+
+14. (Binary operators)-The type of operator where it at-least uses 2 values to perform any operation.
+    (Unary operator)-The type of operator where is uses only 1 value to perdorm any operation.
+
+15. Incriment unary operator-> ++
+    Decrement unary operator-> --
+
+16. (a++) or (a--)-> first performs the operation then update.It is known as post-increment operator.
+    (++a) or (--a)-> first update then perform the operation.It is known as pre-increment operator.
+
+17. <else-if> is used with <if> and <else> if there are multiple conditionals then it is used.
+18. Uppercase character ascii value is 65 to 96 and Lowercase character ascii value is 97 to 122.
+19. ASCII stands for "American Standerd Code of Information Interchange".
+20. (Ternary statements)- Here Ternary means 3. Ternary statement is nothing but a single statement 
+                            version of conditionals.It is followed by <?> for the condition.And different 
+                            statement based on a condition are seperated by the <:>.
+                                eg-  int m = 3;
+                                     m < 5 ? "pos" : "neg";
+
+                    (syntax of writing turnary statements)-
+                            variable_name = (condition) ? expressionTrue : expressionFalse;
+
+                            *This type of statement is generally used for <if-else> condition but if <else if>
+                                is also needed then it is not used in action.
+                            *Actually ternary statements are for if...ekse condition. As main condition are of only true or fasle 
+                                values i.e <if> or <else>. So ternary statements are nothing but simpified way of writing if...else 
+                                condition
+                            *It is possible to write nested ternary statements-conditions and their respective return value 
+                                inside of one single variable.
+                    (A sample syntax of the ternary statement code)- c++ code-
+                            int marks;
+                            cout << "Enter student's marks: ";
+                            cin >> marks;
+                            string return_val = (marks >= 90) ? "~Student has got A":
+                                                (marks >= 80) ? "~Student has got B":
+                                                (marks >= 70) ? "~Student has got C":
+                                                (marks >= 60) ? "~Student has got D": "~Student has faild the test...";
+                            cout << return_val << endl;
+
+22. At c++, there are 3 types of loops- <while>loop, <for>loop and <do-while>loop.
+
+21. Example syntax of whil,for and do-while loop-
+        (while-loop)~                       (for-loop)~                   do{
+        while(i <= 5){                      for(int j=0; j<=5; j++){         //process
+            cout << i << endl;                  cout << j << endl;        }while(i <= 5);  //condition
+            i++;                            }
+        }
+    *At while, the out return is alsways shown at vertical manner but if the user wants to output return
+        horizontal manner then this statement is written-> <cout << i << " ";>.
+
+22. camelCase is a type of case of naming of variables where the first word of the identifier is small case and the second 
+        word of the identifier is at Uppercase where the words are not seperated by a space.
+
+23. do-while loop performs the operation first then checks the condition.
+24. C++ has built-in function for finding factorial of any any number.It is factorial().
+25. At both C or C++, a return value of 0 means success(<return 0;>) and return value of 1 means failiure(<return 1;>).
+26. factorial is denoted by the symbol <!> with that number-> <n!> this is n factorial.
+27. Patterns are those types of special program which are made up of loops and nested loops only.
+28. In continuous pattern problems, we take a variable and store the last progress done by every iteration then start with that value at the next iteration.
+29. In c++, you cannot directly compare C-style strings with == for condition check. Instead you need to use the <strcmp()> the <cstring>library Or just include the string-
+        library and use the string data type instead of char data type.
+
+30. (Arrays)-Arrays are considered to be the first Data Structures.
+                *Data storers are of different different types and those different formats of storage of data is known as data structure, like arrays which 
+                    which strores data is a type of data structures.
+                *At arrays, each block of code occupies a space of 4 bytes.
+                *At c++, size() and sizeof() gives us different outputs. 
+                    size() gives us the length of array. 
+                    sizeof() gives us the memory occupied by the array.
+            
+            (Properties of arrays)~
+                1. We can store data only of same type of data type at every block of an array.
+                2. Arrays are contiguous in memory.
+                3. Arrays are lenear(straight line structures).
+                4. Every block of an array occupies a space of a single integer.
+                5. If we want to initialize the size of an array to a fixed length then we can or if we dont then there is no problem(according to the length of the array, the size would be initialized).
+
+31. (Algorithms)- It is a form of efficient method of performing operation on a particular set of data. Those diffrent methods are 
+                    known as algorithms. It is also a method of searching of data i.e is only an operation.
+
+32. In c++, positive infinity is written as <INT_MAX> and the negative infinity is written as <INT_MIN>.
+
+33. There is a built in function for checking that whether a string contains alphanumeric characters or not. 
+	syntax- <isalnum()>.
+
+34. There is a built in function for converting a uppercase character to lower case. <tolower()>.
+
+35. In c++ for representing the <n> factorial, we represent it as <n!> means to take the product of all the values from 1 ro n.
+
+36. Based on the context of c++, memory is of two types, stack and heep.
+
+37. When all the operations and execution is performed after returning all the desired output, all the stack frames are erased hence,
+        all the memory is cleared and ready for next code.
+
+38. Copy of arguement by different place holders(different variables) or same palce holders(same variables) is passed to 
+        function is known as "Pass by Value" and "Pass by Reference",respectively.
+
+39. <const>type is used before any data type variable or value to make it completely constant type means even initialization would not
+            change the value of that variable even it is <int>, <float> etc. If it is initialized then compiler would show us an error.
+
+40. A variable identifier with all caps idicates that the variable value is a constant, a lateral value.
+
+41. For finding whether a number is prime or not, four conditions must be checked~
+        if n <= 1, then it is not prime number.
+        if n % 2 or n % 3 != 0, then it is a prime number.
+        if n % 2 or n % 3 == 0, then it is not a prime number.
+        if n == 2 or n == 3, then it is a prime number.
+    *But there are certain numbers which are not divisible by 3 and 2 but then also they are not prime.
+
+*Unary operators has the highest presedencies, then comes the arithmatic operators, then comes the relatioal operators, then comes 
+    the logical operators and then at last comes the assignment operator. But of all of these, () has the highest amount of 
+    presedency among all of the operators. This way of overwriting is used for overwriting the rules.
+*It is possible to create block of code in c++ like javascript, inside of curly bracis.
+*We can also change the meaning or say modify data type in c++.
+*In Linux based operating system, size of <long int> and <long long int> is absolutely same and equal where there is no difference.
+*Space and size of the <int> or anyother type of data type completely depends upon the system itself. It is not fixed in nature.
+*Data type modifiers are very important because these adjusts the size and the nature of a variable increasing the overall size 
+    and storage capacity of the system making it more reliable.
+*To convert an int value to string, use this method: 
+            c++ code~ <string value = to_string(abs(num))
+
+*C++ statements are nothing but the each and every line of code that we write in the program. Where each and every line of c++
+    statement must have a statement terminator i.e  ";".
+*<char> and <boolean> data types are considered to be the only data types which occupies a storage of only 1 byte.
+*Booleans are most used for condition testing.
+*Float and double data type has one primary difference that of the storage capacity and occupation.
+*Only characters are enclosed under single quotes and strings are enclosed under double quotes.
+*Concatanation is only possible in srring variables, not at cout-global object. And we can also concatanate strings wit the help
+    of <append()>.
+
+*C++ uses (+) operator for both addition of int values and for concatanation for string values.
+
+(*). In c++, double-right angular brackets i.e (>>) are known as "Extraction operator" and the double-left angular brackets i.e (<<)
+        are knwon as "Insertion operator".
+(*). <cin> is a global object and it considers whitespaces or tab spaces, so if we enter any multiple word value or say a sentence 
+        then it would store the first single word inside of the given variable. 
+            For example- if you cin "Hello world!" inside of the vriables <string greetings;> then it would store only the 
+                            "Hello" word inside of the vriable greetings and if we take the cout of the vriable greetings then 
+                            it would only show us <Hello> at the output. And to prevent this, we use the <getline()>. About 
+                            getline() is written at the built-in functions section.
+
+* Functions like <sqrt()>, <round()> and <log()> comes with the <cmath> standard library. These are some of the built-in functions 
+        which comes with <cmath> standard library.
+* The boolean value- <true> would always give us binary-(1), which signifies <yes> statement. And the boolean value- <false> would 
+        always give us the binary-(0), which signifies <no> statement.
+*Boolean values are used for building logic and finding solution of different types of problems. Booleans are the basis of all the 
+        c++ comparison and conditions.
+
+(*). <if> condition is used for specifying any condition to find whether it is <true>. 
+     <else> is used when the condition is <false> i.e if the <if> condition is returns <false>.  
+     <else if> condition is used after <if> and before <else>. It is used only if the previous condition returns <false>, i.e we 
+            can also use <else if> after another <else if> if the previous <else if> have a chances of returning <false>.
+    <switch> is used for checking many alternative block of conditions. Where we specify the block of conditions as "cases".
+                In <switch> condition, if evry cases are false then we use the <default> case where we specify that the user have 
+                entered something which is out of the context of the <switch> cases.
+
+                    Switch case conditioning always needs a an int type values for its case value, for example <case 9>, which means 
+                    if the main expression returns 9 then this case would be implemented.
+
+(*). <break> and <default> keywords are optional in the switch cases conditioning. In switch case conditioning, we cant give the 
+        direct constant for a complex situation, rather we need to enter an expression at the switch(), not a direct constant.
+
+{C++ built-in-functions}~~
+    1. In c++, we are provided with built function for finding the maximum or minimum between any number or say values in an array of nums.
+            For comparing about the maximum value, we use the <max()>. And for minimum is <min()>.
+
+    2. <count()>- For using this function, first the algorithm library must be included.THis function could be used for counting the number of occurence of a particular
+                    number in an array.
+
+    3. <find()>- This function is used for finding the indicis of any particular number. For using this we iterate from the begining to end 
+                    and then the target is declared. For using this function, first algorithm library must be included.
+                            (syntax)-    int* idx_cont = find(begin(array_nums), end(array_nums), small_val);  
+
+    4. <change()>- This funciton could be sued for changing the value of any variable at its original format. This is widely used at 
+                        functions specially at Pass by Reference.       
+
+    5. <lower()>- This function is used to convert an upper case character into lower case character.  
+
+    6. <isalnum()>- This function is used to check whether a string contains alphanumeric characters or not.
+
+    7. <sqrt()>- For using this function, first the cmath library must be added. This function 
+                    could be used for finding the square root of any number. This function is only found in <cmath> standard library
+                    therefore, first the <cmath> standard library must be included first and then the function must eb called out.
+
+    8. <append()>- This function is generally used for strings, where it is used for joining different strings together.
+
+    9. <sizeof(array) / sizeof(int)>- This type of operation on the combination of function is used for finding the lenght of an 
+                                        array. <sizeof(array)> gives us the whole size of an array in bytes and then we divide 
+                                        the <sizeof(int)> size of individual value to the whole, to find the total number of int 
+                                        values.
+
+    10. <length()>- This function is only used for finding the lenght of any string. It is written like this-
+                        <"variable_name".length()>.
+                    *We can also <size()> for finding the lenght of a string. Both <length()> and <size()> have same function and 
+                        would return the same value only. But the main difference comes in the way of writing the function.
+                            <length()> is written like this-> <"variable_name".length()>
+                            <size()> is written like this-> <size("variable_name")>
+
+    11. <at()>- It is a built-in function that comes with the <string> library. It is used for accessing any alphabet inside of a 
+                    string, including the white spaces.
+
+    12. <getline()>- This function is used for taking the input of a whole line or sentences or say group of words, including 
+                        whitespacs or tab-spaces, by the help of <cin>. <cin> is taken as the first parameter and the <"variable">
+                        is taken as the second parameter, sperated by comma. As <cin> alone cannot take the input of a group of 
+                        words compared to the <getline()>.
+                                c++ code~
+                                        string name;
+                                        cout << "Please enter your first name: ";
+                                        getline(cin, name);
+                                        cout << "your full name is: " << name << endl;
+                        *It is for this reason, <getline()> is named as "getline".
+                        *<cin> can store only single word inside of a variable but <getline()> can store multiple words inside of 
+                            a variable by taking the <cin> as the first parameter and the variable as the second parameter.
+                        *We say the way of using a <getline()> as "reading/read a line".
+
+    13. <max()>- This is a math based function which is used for finding the greatest value between any 2 int or float values.
+    14. <min()>- This is also a math based function which is used for finding the smallest value between any 2 int or floar values.
+
+    15. <log()>- This function is used for finding the log of any value, which is related to the logarithms. This function is a
+                    built-in function of <cmath> standard library. So for using it, <cmath> standard library must be included.
+
+    16. <round()>- This function is used for finding the round-of value of any given number. This function is a built-in function 
+                        of <cmath> standard library. So for using it, <cmath> standard library must be included.
+
+{Functions}~
+
+(syntax of a function)- 
+        returntype printhello(){
+            //operation.
+        }
+        here, <returntype> is the type of data which we are returning from a function. <printhello()> is the name of the function.
+    1. Functions which does not return anything, the there return type must becout << "Greater: " << sum(10, 5) << endl; <void>.
+    2. A function does not works until and unless we do not call the function. That is function call or say function invoke.
+    3. The Inputing of any variable inside of a function is known as parameters.
+
+{unique points and definition}-
+    (*).(Fibonacci)- The process of increasing of list of numbers in such a way that the next number is greater
+                        the previous number by its own value.
+    *(Presedencies)- Presedencies in c++ is known as priority. which means the importance of operators like the modulus operator
+                        would generally have more priority then division operator.
+    *(Incrimentation)- The way of incrimenting an int value by 1.
+    *(Decrimentation)- The way of decrimenting an int value by 1.
+
+    (*). (c-Style strings)- It is the way of writing c-style strings in c++ except of using the <string> library, by using the 
+                                <char> type variable with a fixed length.
+                                    For exmaple- c++ code~
+                                                        char name[35] = "Hello world! It is a c-style string with a definite length";
+                            *It is an array of characters, presented in the form of strings.
+                            *c-style strings are called or created by calling an <char> array.
+                            *c++ supports both standard strings and c-style strings(it is because- c++ is nothing but an extension of C).
+                            *You can also define the length of c-style string as undefined by not declaring any value inside of any variable.
+                                But the twist is that we can take any input of that undefined length c-style string, rather can store any 
+                                string.
+
+{About Binary number system}-
+    1. The number 10 is only known as "dec" at the decimal terminology.
+    2. Number system are of numerous types but all of them, Binary number system is the most prominent one. 
+    3. For conversion from decimal to binary, we need to repeatedly divide any number by 2.
+    4. The coded format of any binary number system have some tricks to solve- The solution is mainly based the modulu or say the remeinder
+            of the continuous repitition of the division of 2 with the next remeinder.
+    5. The last bit of every odd binary numbers would always be 1, and the last bit of every even binary numbers would alsways
+            be 0.
+    6. The negative form of a number is stored trough a series of steps, by one's complement and two's complement process.
+            flipping of a binary number is known as one's complement, i.e one's complement of (1010)-which is nothing but decimal 
+            number 10 would be (10101). And the two's complement of this number is- (10110) and it is nothing but the addition 
+            of 1 at the last bit of the binary number so formed( by the one's complement) which would result in 2 and further 
+            2 would be converted into its binary form, the resultent value after one's and two's compelment would be the binary 
+            format of that negative number which would be further stored inside of the number.
+    7. The gven binary number could only be identified whther it is negative or not, just by looking at the first bit of the 
+            number. If the first bit is (1) then it is a negative value and if the first bit is (0) then it is a positive value.
+
+{C++ standard libraries}-
+    (<bitset>)- <bitset> is a C++ Standard Library header that allows you to represent fixed-size binary sequences — like 
+                    a string of bits (0s and 1s). It gives us an easy way to print the binary version of a number. It could be 
+                    used for finding the binary value of both negative as well as positve values. 
+                *The syntax of using it like this-
+                                            c++ code~ [bitset<32> binary(num);] 
+                    Inside of the angular brackets, we give the fixed size of the binary sequence. and then use the binary
+                    function to convert the decimal value to its binary form.
+                *The above syntax is not enclosed under any variable. Inside of the binary() we write the name of the variable
+                    inside of the function and return the binary itself , i.e-> <return binary;>. If the name f the variable 
+                    is given besides the return statement then the desired output would not come.
+                *If the whole conversion process is enclosed inside of a function then the return type of the function would 
+                    not be <int>, rather it would be- c++ code~ (bitset<"fixed size"> binary_converter(int value){}).
+
+    (<string>)- It is a standard library which used for including the data type <string> for longer sequence character statements.
+                    Bu including this, we can also perform different operations on strings as there is no built-in data type for 
+                    string type values.
+
+    (<typeinfo>)- It is a standard library which is used for having the power of using the <typeid().name()>. This function is 
+                    generally used for finding the type of any variable as c++ does not have any built-in function for finding the 
+                    type of any variable.
+
+    (<cmath>)- The <cmath> standard library in C++ provides a collection of functions for performing common mathematical 
+                    operations like trigonometry, exponentiation, logarithms, rounding, absolute values, and more. It is standard 
+                    library which could function special mathematical functions.
+
+{Bitwise operations}-
+    *Bitwise operations is the operations performed on binary numbers.
+    *The <logical AND> of binary values is known as <bitwise AND>. It is because we are performing a bitwise operation of logical 
+        AND of the given binary values.
+    *Bitwise operations have different symbols for their function. Like the <bitwise AND> is denoted as (&)- except (&&). And 
+        the <bitwise OR> is denoted as (|) except (||).
+    *If we enter any and perform bitwise operations then first the values are converted into their binary form and then the main
+        operations is performed.
+    (Some of the following bitwise operators)-
+        <bitwise &>(bitwise AND)
+        <bitwise |>(bitwise OR)
+        <bitwise ^>(exclusive XOR)
+        <bitwise << >(bitwise left shift)
+        <bitwise >> >(bitwise right shift)
+
+    *<bitwise ^> is not known as bitwise XOR, rather it is known as <exclusive XOR>. In this type of operation, we say-
+        (0 ^ 0)= 0 and (1 ^ 1)= 0
+        (0 ^ 1)= 1 and (1 ^ 0)= 1
+            Means if there are same values, then only the resultent value would be (0) and if there are no same values then the 
+            resultent value would (1).
+    *<bitwise << > This operator results in the shift of the bits of binary value to i times of a binary value n to their left 
+                        side, by i th places.
+                    *This bitwise operator does a special function at memory. It follows the calculation of (a * 2^b). Here, 
+                        (a) is the decimal number that we give and (b) is the number of places that should be shifted to the left-
+                        listed in numbers. The following expression results is the final value that a bitwise left shift operator
+                        allocates at the memory.
+    *<bitwise >> > This operator results in the shift of the bits of binary value to i times of a binary value n to their right 
+                        side, by i th places.
+                    *This bitwise operator also does a special function at memory. It follows the calculation of (a / 2^b). Here, 
+                        (a) is the decimal number that we give and (b) is the number of places that should be shifted to the right-
+                        listed in numbers. The following expression results is the final value that a bitwise left shift operator 
+                        allocates at the memory.
+
+
+{escape sequence characters}-
+    1. <\n>- This character is used for making a new line at the output.
+    2. <\t>- This character is used for making a tab space between characters wherever you put in between, which would show its 
+                effects at the output only.
+    3. <\" --content-- \">- It is also written as <\"> in short. It is used for enclosing any part of string under double quots 
+                                which shows its effects at the output only.
+    4. <\\>- This sequence enters a single back slash inside of a string at the output.
