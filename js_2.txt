@@ -1,0 +1,96 @@
+JavaScript tool book-
+
+1. {Facts and other important points}-
+        *There are 7 different types of primitive data types- <Number>, <String>, <Boolean>, <Undefined>, <null>, <BigInt>
+            and <Symbol>.
+        *There are 3 different keyowrds that are written before every variable name- <let>, <const> and <ver>.
+            <let> keyword is used for letting a variable and this keyword is widely used. But it does not allows the user in 
+                overwriting the value of any variable, compared to the <ver> keyword.
+            <const> keyword is widely used in objects. before the name of the object. This keyword also does not allows the user
+                to over write any value of any variable.
+            <ver> keyword used to be widely used till before 2015 but after 2015, due to the new rules and advancements, <let> and
+                <const> keyowrds were intorduced in JavaSript. This do allows the user to over write any variable.
+
+        *JavaScript Programming language uses Interpriter for converting the code into machine code.
+        *Statement Terminator is given at the end of evry object, block or line of code.
+        *You cannot let the same variable in JavaScript.
+        *Every variable is respective of its blocks.
+        *We cannot let any variable inside of an object.
+        *For running a JavaScript file, use the command- <node "file-name">
+        *<null> value of any value is a unique value, which shows that the variable is empty at the moment.
+        *"Undifined" in JavaScript means a value of a vriable which is not defined.
+
+        (*)- JavaScript is a dynamically typed language.
+
+        *JavaScript code can be inserted anywhere in html by just using the <script></script> tag. It is generally written below
+            the body tag.
+        *There is a stricter version of equal to. <===>. This not only check the value for comparison but also checks the data 
+            type for comparison.
+        
+        (*)- If you enclosure up a script file inside of a form, like you are finding the sum of two numbers then. Where the
+                JavaScript code inside of a script, which is further inside of a form. Would quickly refresh at the brower
+                window after entering, hence you would not be able to see the answer.
+
+        *Script tag could be used for writing the JavaScript code inside of the html code section and Style tag could be used for
+            writing the CSS code inside of the html code section.
+        *If a string is type converted into Number and then shown at the output then it Would always show <NaN>.
+        *If <n % 2 == 0> then the number(n) is an even number and 2 is one of the factor of the number(n).
+-------------------------------------------------------------------------------------------------------------------------------
+2. {Objects in JavaScript}-
+-------------------------------------------------------------------------------------------------------------------------------
+3. {Definitions}-
+        (Blocks)- These are the blocks of codes which are respective of them itself. These are enclosed within {}. Any sort of
+                    code which are written in {} are known as blocks.
+-------------------------------------------------------------------------------------------------------------------------------
+4. {Functions}-
+        *<console.log()> is the function which prints anything at the console. Here .log() is the main thing, it prints the content
+                            inside of the parenthesis. And this function tells the console to be printed there. For this reason it
+                            is <console.log()>.
+        *<prompt()>- This command is used for taking input form the user.
+
+        *<alert()>- It is a very function in JavaScript. It is used for showing pop ups in web-site or say showing something message
+                        or notification on thw web-site window.
+
+        *<document.getElimentByID(<source/identification name>).value>- Is the command for excrating or say taking the input value
+                                                                            from the user through the html page and entering the
+                        input value inside of a leted variable. Where this function is written inside of the desired variable.
+
+        *<document.getElimentByID(<id-name>).innerText>- Is the function which is used for pasting the output at the html page
+                                                            through script or seperate JavaScript file. The process is simple.
+                        First make an element for printing something at the page(html page at browser), like <p></p> tag.
+                        Then give an identification name of that tag like-> (<p id="value"></p>) and keep the container empty.
+                        And use the <.innertext-function> for entering the output inside of the container, like~
+                                                            -> document.getElementById("result").innerText = "Sum: " + sum;
+                        inside of the script or wherever you writing the JavaScript code.
+
+                        (Make sure)-
+                        *Make sure to make a function of the process in JavaScript code, for function call purposes after clicking
+                            the button.
+                        *During the process make sure to convert the string input to Numbers by using the <Number()> or else 
+                            output would not be pasted.
+                        *While making the button, make sure to add an attribute named- <onclick=""> and inside of it, function
+                            call the function of the process inside of the JavaScript code. Here "onclick" means the
+                            process(function) should take place after giving the input for getting the output.
+
+        *<isNaN("variable")>- This function is used to check whether the given values are NaN values of a number type string.
+                                If the given value is number-type-string then it would return true and if it is not then it would 
+                                return false.
+-------------------------------------------------------------------------------------------------------------------------------
+5. {JavaScript and other web devolopment tools and features}-
+        ->(MDN web docs)- It is a JavaScript documentation.
+        ->(JavaScript.info)- It is also a JavaScript documentation. 
+        ->(remove-bg.com)- This web-site is used for removing the backgorund of any image after giving the image.
+        ->(pesticide)- This is an extension which is used in firefox browser. Any web-site runs at the browser whether it is a remote
+        		or local or through the live server itself. This have a same feature with respect to the inspect feature of
+        		any web-site. This extension could be enabled or disabled through the extension tools of the browser and it 
+        		is present there only.
+        ->(ctrl + f)- This is one of the feature of visual studio code. A search bar appears at the top right corner of the text-editor
+        		window. Through this, user can search any type of container through the identification name.
+-------------------------------------------------------------------------------------------------------------------------------
+6. {Logical Operators}-
+        *Logical operators are of three types- <AND>, <OR>, <NOT>.
+            <AND>-> (&&)- Means, it would return true if both of the given values are true. And if not then would return false.
+            <OR>-> (||)- Means it would return true if one of the values is true. But would return false if both of the values 
+                            are false.
+            <NOT>-> (!)- It would return the inverse of true i.e flase and inverse of false i.e true.
+
